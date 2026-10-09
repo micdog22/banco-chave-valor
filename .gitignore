@@ -1,0 +1,26 @@
+# Sistema
+.DS_Store
+
+# Build (make e cmake usam build/)
+build/
+dist/
+*.o
+*.a
+*.dSYM/
+coverage/
+
+# Executáveis, caso sejam compilados fora de build/
+/kv
+/test_kv
+/test_queda
+
+# Bancos criados ao experimentar
+*.kv
+*.kv.compactando
+
+# Outras linguagens
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
